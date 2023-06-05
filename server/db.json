@@ -1,0 +1,365 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "Name": "Funny Dress",
+      "Price": 600,
+      "Quantity": 10,
+      "CateoggryID": 1,
+      "Img": "assets/imgs/Woman/1 (3).jpg"
+    },
+    {
+      "Name": "Funny",
+      "Price": 300,
+      "Quantity": 100,
+      "CateoggryID": 1,
+      "Img": "assets/imgs/Woman/1 (4).jpg",
+      "id": 3
+    },
+    {
+      "Name": "Fun Dress",
+      "Price": 470,
+      "Quantity": 100,
+      "CateoggryID": 1,
+      "Img": "assets/imgs/Woman/1 (5).jpg",
+      "id": 4
+    },
+    {
+      "ID": 6,
+      "Name": "Dress",
+      "Price": 400,
+      "Quantity": 100,
+      "CateoggryID": 1,
+      "Img": "assets/imgs/Woman/1 (6).jpg",
+      "id": 5
+    },
+    {
+      "Name": "Amazing",
+      "Price": 400,
+      "Quantity": 100,
+      "CateoggryID": 1,
+      "Img": "assets/imgs/Woman/1 (7).jpg",
+      "id": 6
+    },
+    {
+      "Name": "Fun Dress",
+      "Price": 400,
+      "Quantity": 100,
+      "CateoggryID": 1,
+      "Img": "assets/imgs/Woman/1 (8).jpg",
+      "id": 7
+    },
+    {
+      "Name": "Fun Dress",
+      "Price": 400,
+      "Quantity": 100,
+      "CateoggryID": 1,
+      "Img": "assets/imgs/Woman/1 (9).jpg",
+      "id": 8
+    },
+    {
+      "Name": "Fun Dress",
+      "Price": 400,
+      "Quantity": 100,
+      "CateoggryID": 1,
+      "Img": "assets/imgs/Woman/1 (20).jpg",
+      "id": 9
+    },
+    {
+      "Name": "Fun Dress",
+      "Price": 400,
+      "Quantity": 100,
+      "CateoggryID": 1,
+      "Img": "assets/imgs/Woman/1 (25).jpg",
+      "id": 11
+    },
+    {
+      "Name": "Fun Dress",
+      "Price": 4000,
+      "Quantity": 7000,
+      "CateoggryID": 1,
+      "Img": "assets/imgs/Woman/1 (18).jpg",
+      "id": 12
+    },
+    {
+      "Name": "Fun Dress",
+      "Price": 400,
+      "Quantity": 100,
+      "CateoggryID": 1,
+      "Img": "assets/imgs/Woman/1 (20).jpg",
+      "id": 13
+    },
+    {
+      "Name": "Fun Dress",
+      "Price": 400,
+      "Quantity": 100,
+      "CateoggryID": 1,
+      "Img": "assets/imgs/Woman/1 (22).jpg",
+      "id": 14
+    },
+    {
+      "Name": "Man T-Shirt",
+      "Price": 400,
+      "Quantity": 100,
+      "CateoggryID": 1,
+      "Img": "assets/imgs/T_chairt/1 (1).jpg",
+      "id": 15
+    },
+    {
+      "Name": "Man T-Shirt",
+      "Price": 300,
+      "Quantity": 100,
+      "CateoggryID": 1,
+      "Img": "assets/imgs/T_chairt/1 (2).jpg",
+      "id": 16
+    },
+    {
+      "Name": "Man T-Shirt",
+      "Price": 200,
+      "Quantity": 10,
+      "CateoggryID": 1,
+      "Img": "assets/imgs/T_chairt/1 (3).jpg",
+      "id": 17
+    },
+    {
+      "Name": "Man T-Shirt",
+      "Price": 50,
+      "Quantity": 100,
+      "CateoggryID": 1,
+      "Img": "assets/imgs/T_chairt/1 (4).jpg",
+      "id": 18
+    },
+    {
+      "Name": "Man T-Shirt",
+      "Price": 400,
+      "Quantity": 110,
+      "CateoggryID": 1,
+      "Img": "assets/imgs/T_chairt/1 (5).jpg",
+      "id": 19
+    },
+    {
+      "Name": "Man T-Shirt",
+      "Price": 400,
+      "Quantity": 10,
+      "CateoggryID": 1,
+      "Img": "assets/imgs/T_chairt/1 (6).jpg",
+      "id": 20
+    },
+    {
+      "Name": "Man T-Shirt",
+      "Price": 420,
+      "Quantity": 100,
+      "CateoggryID": 1,
+      "Img": "assets/imgs/T_chairt/1 (7).jpg",
+      "id": 21
+    },
+    {
+      "Name": "Man T-Shirt",
+      "Price": 400,
+      "Quantity": 10,
+      "CateoggryID": 1,
+      "Img": "assets/imgs/T_chairt/1 (8).jpg",
+      "id": 22
+    },
+    {
+      "Name": "Man T-Shirt",
+      "Price": 400,
+      "Quantity": 100,
+      "CateoggryID": 1,
+      "Img": "assets/imgs/T_chairt/1 (9).jpg",
+      "id": 23
+    },
+    {
+      "Name": "Man T-Shirt",
+      "Price": 400,
+      "Quantity": 100,
+      "CateoggryID": 1,
+      "Img": "assets/imgs/T_chairt/1 (10).jpg",
+      "id": 24
+    },
+    {
+      "Name": "Man T-Shirt",
+      "Price": 450,
+      "Quantity": 100,
+      "CateoggryID": 1,
+      "Img": "assets/imgs/T_chairt/1 (11).jpg",
+      "id": 25
+    },
+    {
+      "Name": "Man T-Shirt",
+      "Price": 100,
+      "Quantity": 100,
+      "CateoggryID": 1,
+      "Img": "assets/imgs/T_chairt/1 (12).jpg",
+      "id": 26
+    },
+    {
+      "Name": "Man T-Shirt",
+      "Price": 500,
+      "Quantity": 100,
+      "CateoggryID": 1,
+      "Img": "assets/imgs/T_chairt/1 (13).jpg",
+      "id": 27
+    },
+    {
+      "Name": "Man T-Shirt",
+      "Price": 100,
+      "Quantity": 100,
+      "CateoggryID": 1,
+      "Img": "assets/imgs/T_chairt/1.jpg",
+      "id": 28
+    },
+    {
+      "Name": "Man T-Shirt",
+      "Price": 400,
+      "Quantity": 100,
+      "CateoggryID": 1,
+      "Img": "assets/imgs/T_chairt/1 (1).jpg",
+      "id": 29
+    },
+    {
+      "Name": "drees",
+      "Img": "/assets/imgs/Woman/1 (11).jpg",
+      "Quantity": 100,
+      "Price": 80,
+      "id": 30
+    },
+    {
+      "Name": "Man",
+      "Price": 4000,
+      "Quantity": 100,
+      "CateoggryID": 1,
+      "Img": "assets/imgs/Babys/1 (5).jpg",
+      "id": 31
+    },
+    {
+      "Img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLLUBkJgwdSnMEx7TGzJ5p_2kz8JxCGv1bW3EKuBCa2w&s",
+      "Price": 1000,
+      "id": 32
+    },
+    {
+      "Name": "cool",
+      "Img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3xiN2yrX1kMIshGw80MZsEQASG1aDt-f7AQ&usqp=CAU",
+      "Quantity": 40,
+      "Price": 100,
+      "CateoggryID": "5",
+      "id": 34
+    },
+    {
+      "Name": "Man",
+      "Price": 4000,
+      "Quantity": 100,
+      "CateoggryID": 1,
+      "Img": "assets/imgs/Babys/1 (5).jpg",
+      "id": 35
+    },
+    {
+      "Name": "Man",
+      "Price": 4000,
+      "Quantity": 100,
+      "CateoggryID": 1,
+      "Img": "assets/imgs/Babys/1 (5).jpg",
+      "id": 36
+    },
+    {
+      "Name": "Man",
+      "Price": 4000,
+      "Quantity": 100,
+      "CateoggryID": 1,
+      "Img": "assets/imgs/Babys/1 (5).jpg",
+      "id": 37
+    },
+    {
+      "id": 50,
+      "Name": "amazing",
+      "Img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3xiN2yrX1kMIshGw80MZsEQASG1aDt-f7AQ&usqp=CAU",
+      "Quantity": 15,
+      "Price": 10000,
+      "CateoggryID": "4"
+    },
+    {
+      "id": 1,
+      "Name": "drees",
+      "Img": "/assets/imgs/Woman/1 (11).jpg",
+      "Quantity": 1,
+      "Price": 2111,
+      "CateoggryID": "4"
+    },
+    {
+      "id": 10,
+      "Name": "drees",
+      "Img": "/assets/imgs/Woman/1 (11).jpg",
+      "Quantity": 100,
+      "Price": 10000,
+      "CateoggryID": "4"
+    },
+    {
+      "id": 100,
+      "Name": "amazing ggg",
+      "Img": "/assets/imgs/Woman/1 (18).jpg",
+      "Quantity": 100,
+      "Price": 8000,
+      "CateoggryID": "2"
+    }
+  ],
+  "Iuser": [
+    {
+      "id": 4,
+      "firstName": "Mustafa",
+      "lastName": "Ali",
+      "email": "mustafa@gmail.com",
+      "phone": "01122445566",
+      "address1": "123 sohag",
+      "city": "Tema",
+      "Postal_Code": "123 St"
+    },
+    {
+      "id": 5
+    },
+    {
+      "firstName": "sssss",
+      "lastName": "ss",
+      "email": "eee@ddd",
+      "city": "11",
+      "id": 6
+    },
+    {
+      "firstName": "ahmed ",
+      "lastName": "hmada",
+      "email": "ah@gmial.com",
+      "id": 7
+    },
+    {
+      "firstName": "ahmed",
+      "lastName": "saad",
+      "email": "sss@ww",
+      "phone": "01254785954",
+      "city": "s",
+      "address1": "s",
+      "id": 8
+    },
+    {
+      "firstName": "ahmed",
+      "lastName": "ssssssss",
+      "email": "eee@ddd",
+      "city": "777",
+      "address1": "777",
+      "id": 9
+    },
+    {
+      "firstName": "sssssssss",
+      "lastName": "ssssssssssssssssss",
+      "email": "eee@ddd",
+      "id": 10
+    },
+    {
+      "firstName": "Mostafa ",
+      "lastName": "ss",
+      "email": "eng@dd.com",
+      "city": "sohag",
+      "address1": "tima",
+      "phone": "01158070555",
+      "id": 11
+    }
+  ]
+}

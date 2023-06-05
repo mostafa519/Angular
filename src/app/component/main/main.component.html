@@ -1,0 +1,41 @@
+<!--
+
+
+<!-- <table id="ProductsData" class="table table-dark table-striped table-hover">
+  <thead>
+      <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Discound</th>
+          <th>Edit|Delete</th>
+      </tr>
+  </thead>
+  <tbody></tbody>
+</table> -->
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-md-4">
+    <h1>{{Store1.name}}</h1>
+   <ng-container *ngIf="showDivs">
+    <img src="{{Iproduct1.Img}}" width="100px" height="100px" alt="">
+   </ng-container>
+    <ul>
+      <li *ngFor="let s of Store1.branches">{{s}}</li>
+    </ul>
+
+    <ng-container *ngIf="!showDivs">
+      <h4>Thinks for earn : {{Store1.name}}</h4>
+    </ng-container>
+    <button imgStyle class="btn btn-danger m-2" (click)="showDiv()">Buy</button>
+  </div>
+
+</div>
+

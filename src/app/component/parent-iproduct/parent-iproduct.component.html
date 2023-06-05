@@ -1,0 +1,48 @@
+<div class="row">
+  <div class="col-md-3">
+     <h5>Select Price :</h5>
+        <select #Pricee (change)="onSelectedPrice((Pricee.value))">
+          <option disabled>Choose Price</option>
+          <option>1500</option>
+          <option>7000</option>
+          <option>80000</option>
+          <option>25000</option>
+          <option>20000</option>
+        </select>
+    <!-- <div>Filter in parent Code</div>
+  </div>
+  <div class="col-md-4">
+    <input type="text" class="form-control" [(ngModel)]="_filter_List">
+  </div>
+  <div class="col-md-5">
+    <h4>Hello {{_filter_List}}</h4>
+  </div> -->
+</div>
+
+<app-product-list  [NumX]="_NumX"   (addCardInTableEvent)="addCardInTableEvent2($event)"></app-product-list>
+<!-- <app-product-list [filter_List]="_filter_List"   (addCardInTableEvent)="addCardInTableEvent2($event)"></app-product-list> -->
+
+
+<table id="ProductsData" class="table table-dark table-striped table-hover">
+  <thead>
+    <tr>
+      <th>Quantity</th>
+      <th>Name</th>
+      <th>Total Price</th>
+      <th>Total Quantity</th>
+      <th>Delete</th>
+    </tr>
+    <ng-container *ngFor="let item of productsCards ">
+      <ng-container *ngIf="item.Quantity>0 && item.id > 0">
+        <tr>
+          <th>{{item?.id}}</th>
+          <th>{{item?.Name}}</th>
+          <th>{{item?.Price}}</th>
+          <th>{{item?.Quantity}}</th>
+          <th><button (click)="delCardInTables(item)">Delete</button> </th>
+        </tr>
+      </ng-container>
+    </ng-container>
+  </thead>
+  <tbody></tbody>
+</table>

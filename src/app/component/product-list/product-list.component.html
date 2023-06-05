@@ -1,0 +1,116 @@
+<div class="row">
+  <div class="col-md-1">
+  </div>
+  <div class="col-md-10">
+    <div class="row mb-3 ">
+      <button class="btn btn-primary mb-3 " (click)="removeToggle()">{{Show?"Show":"Remove"}}</button>
+      <div class="col-md-2">
+        <!-- <h4>Select The Item </h4> -->
+      </div>
+      <div class="col-md-4">
+        <div class="d-flex m-3">
+          <h3>Sort from Z To A:</h3>
+          <button class="border-0" style="background-color: white;"><i class="fa-solid fa-arrow-down-z-a"
+              style="color:blue;font-size: 33px;" (click)="serivceList.Sorted()"></i></button>
+        </div>
+        <!-- <h5>Select Price :</h5>
+        <select #Pricee (change)="onSelectedPrice((Pricee.value))">
+          <option disabled>Choose Price</option>
+          <option>1500</option>
+          <option>7000</option>
+          <option>80000</option>
+          <option>25000</option>
+          <option>20000</option>
+        </select> -->
+      </div>
+      <div class="col-md-6"> The Date : {{date1 | date:"mediumDate"}}
+
+      </div>
+    </div>
+     <div class="row container-fluid">
+
+      <div class="card col-md-4 pe-3" Styles *ngFor="let product of _find_List "
+        [class.text-danger]="product.Price>15000" [ngStyle]="{'background-color':(product.Quantity<2)?'red':'light'}"
+        >
+        <ng-container *ngIf="Remove">
+          <img [src]="product.Img" alt="" imgStyle class="card-img-top mt-2" alt="...">
+          <div class="card-body">
+            <h4>{{product.Name | uppercase}}</h4>
+            <h4 class="text-decoration-line-through">{{product.Price| currency}}</h4>
+            <ng-container [ngSwitch]="product.CateoggryID">
+              <ng-container *ngSwitchCase="1">We offer an explicit discount of {{discound}}
+                <h4>{{product.Price|calcDiscount:10|currency }}</h4>
+              </ng-container>
+              <ng-container *ngSwitchCase="2"> {{discound2}}
+                <h4>{{product.Price|currency}}</h4>
+              </ng-container>
+              <ng-container *ngSwitchCase="3">We offer an explicit discount of {{discound3}}
+                <h4>{{product.Price|calcDiscount:15|currency }}</h4>
+              </ng-container>
+            </ng-container>
+
+            <ng-container *ngIf="product.Quantity >0 ;else sh">There is last {{product.Quantity}}</ng-container>
+            <ng-template #sh>Out Of Stock</ng-template>
+            <br>
+            <button imgStyle class="btn btn-danger m-2" [disabled]="product.Quantity==0"
+              (click)=" AddDiv(product)">Buy</button>
+
+             <!-- <button imgStyle class="btn btn-danger m-2"(click)="serivceList.addCardInTables(product.ID)" >ADD</button> -->
+            <button imgStyle class="btn btn-danger m-2" (click)="addCardInTables2(product)">ADD</button>
+
+          </div>
+        </ng-container>
+
+      </div>
+      <!-- <div><h4>The Items Before Filteration  </h4></div> -->
+    </div>
+    <!-- <div class="row container-fluid">
+      <div class="card col-md-4 pe-3" Styles *ngFor="let product of _filter_List "
+        [class.text-danger]="product.Price>15000" [ngStyle]="{'background-color':(product.Quantity<2)?'red':'light'}"
+        (click)="getIdProduct(product.ID)">
+        <ng-container >
+          <img [src]="product.Img"  alt="" imgStyle class="card-img-top mt-2" alt="...">
+        </ng-container>
+        <ng-container >
+          <div class="card-body">
+            <h4>{{product.Name | uppercase}}</h4>
+            <h4 class="text-decoration-line-through">{{product.Price| currency}}</h4>
+            <ng-container [ngSwitch]="product.CateoggryID">
+              <ng-container *ngSwitchCase="1">We offer an explicit discount of {{discound}}
+                <h4>{{product.Price|calcDiscount:10|currency }}</h4>
+              </ng-container>
+              <ng-container *ngSwitchCase="2"> {{discound2}}
+                <h4>{{product.Price|currency}}</h4>
+              </ng-container>
+              <ng-container *ngSwitchCase="3">We offer an explicit discount of {{discound3}}
+                <h4>{{product.Price|calcDiscount:15|currency }}</h4>
+              </ng-container>
+            </ng-container>
+            <ng-container >
+              <h4>{{_Name}}</h4>
+            </ng-container>
+
+            <ng-container *ngIf="product.Quantity >0 ;else sh">There is last {{product.Quantity}}</ng-container>
+            <ng-template #sh>Out Of Stock</ng-template>
+            <br>
+            <button imgStyle class="btn btn-danger m-2" [disabled]="product.Quantity==0"
+              (click)="AddDiv(product)">Buy</button>
+           <button imgStyle class="btn btn-danger m-2"(click)="serivceList.addCardInTables(product.ID)" >ADD</button>
+            <button imgStyle class="btn btn-danger m-2" (click)="addCardInTables2(product)">ADD</button>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </div> -->
+  <div class="col-md-2"></div>
+  <div class="row">
+    <div class="mb-3">
+      <div class="col-md-2">Card Custom the value :</div>
+      <div class="col-md-4"><input type="text" class="form-control" maxlength="16" [(ngModel)]="inputValue"></div>
+      <div class="col-md-5">
+        <h4> the value {{inputValue |cardCustom }}</h4>
+      </div>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,20 @@
+<div class="row pb-5">
+  <div class="row container-fluid">
+
+    <div class="card col-md-4 pe-3" Styles *ngFor="let product of ProductWomanDress ">
+      <ng-container >
+        <img [src]="product.Img" alt="" imgStyle class="card-img-top mt-2" alt="...">
+        <div class="card-body">
+          <h4>{{product.Name | uppercase}}</h4>
+          <h4>{{product.Price |currency}}</h4>
+          <ng-container *ngIf="product.Quantity >0 ;else sh">There is last {{product.Quantity}}</ng-container>
+          <ng-template #sh>Out Of Stock</ng-template>
+          <br>
+          <button imgStyle class="btn btn-danger m-2" [disabled]="product.Quantity==0">Buy</button>
+          <button imgStyle class="btn btn-danger m-2">ADD</button>
+        </div>
+      </ng-container>
+
+    </div>
+  </div>
+</div>
